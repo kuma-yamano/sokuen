@@ -16,12 +16,13 @@ header {
   height: 95px;
   width: 100%;
   margin: 0;
+  position: fixed;
 }
 
 .header-container {
   height: 100%;
   width: 100%;
-  max-width: 1500px;
+  max-width: 1600px;
   margin: 0 auto;
 }
 
@@ -45,17 +46,17 @@ header {
 }
 
 .top-about {
-  color: rgb(241, 194, 23);
+  color: rgb(255, 207, 0);
   padding: 35px 20px 0 20px;
 }
 
 .top-function {
   padding: 35px 50px 0 20px;
-  color: rgb(241, 194, 23);
+  color: rgb(255, 207, 0);
 }
 
 .top-contact {
-  background-color: rgb(241, 194, 23);
+  background-color: rgb(255, 207, 0);
   padding: 0 40px;
   line-height: 95px;
   color: black;
@@ -69,7 +70,7 @@ header {
 }
 
 .main {
-  background-color: rgb(241, 194, 23);
+  background-color: rgb(255, 207, 0);
   padding-bottom: 30px;
 }
 
@@ -77,7 +78,7 @@ header {
 
 .top-wrapper {
   width: 100%;
-  max-width: 1500px;
+  max-width: 1600px;
   margin: 0 auto;
 }
 
@@ -110,11 +111,11 @@ header {
 
 .function-belt {
   height: 100px;
-  padding: 30px 0;
   width: 100%;
   font-size: 30px;
   font-weight: 900;
   text-align: center;
+  margin-top: 116px;
   /*transform: scale(2.0, 1.0);*/
 }
 
@@ -128,7 +129,7 @@ header {
 
 .about-wrapper {
   width: 98%;
-  max-width: 1500px;
+  max-width: 1600px;
   margin: 0 auto;
   text-align: center;
 
@@ -136,18 +137,20 @@ header {
 
 .outline-title {
   margin-bottom: 40px;
-  font-size: 12px;
+  font-size: 15px;
   font-weight: bold;
   text-align: center;
 }
 
 .about-outline h2 {
-  line-height: 45px;
+  font-size: 32px;
+  margin-top: 70px;
+  line-height: 58px;
 }
 
 .about-outline span {
   background-color: black;
-  color: rgb(241, 194, 23);
+  color: rgb(255, 207, 0);
 }
 
 /*model*/
@@ -156,12 +159,13 @@ header {
   background-color: white;
   border: solid;
   margin-top: 30px;
-  line-height: 45px;
+  line-height: 58px;
 }
 
 .model-container h2 {
   padding-top: 40px;
   padding-bottom: 20px;
+  font-size: 32px;
 }
 
 .models {
@@ -172,6 +176,7 @@ header {
 
 .models h3 {
   border-bottom: dashed 2px black;
+  font-size: 25px;
 }
 
 .models p {
@@ -187,8 +192,8 @@ header {
   width: 46%;
   height: 100%;
   text-align: center;
-  margin-left: 2%;
-  margin-right: 2%;
+  margin-left: 1%;
+  margin-right: 3%;
 }
 
 .model-after {
@@ -196,8 +201,8 @@ header {
   width: 46%;
   height: 100%;
   text-align: center;
-  margin-left: 2%;
-  margin-right: 2%;
+  margin-left: 3%;
+  margin-right: 1%;
 }
 
 .model-table {
@@ -209,7 +214,7 @@ header {
 .model-before-details {
   margin:0 auto 30px auto;
   border: solid;
-  max-width: 400px;
+  max-width: 465px;
 }
 
 .model-before-details p span {
@@ -221,12 +226,12 @@ header {
   margin:0 auto 30px auto;
   border: solid;
   background-color: rgba(241, 194, 23, 0.7);
-  max-width: 400px;
+  max-width: 465px;
 }
 
 .model-after-details p span {
   background-color: black;
-  color: rgb(241, 194, 23);
+  color: rgb(255, 207, 0);
 }
 
 .model-before img {
@@ -244,11 +249,22 @@ header {
 
 /*function*/
 
+.function-wrapper {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
 .function-contents {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-content: stretch;
+}
+
+.function-contents h2 {
+  font-size: 32px;
+  margin-bottom: 68px;
 }
 
 .function-contents img {
@@ -257,7 +273,7 @@ header {
 
 .contents {
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 110px;
   margin-left: 2%;
   margin-right: 2%;
   min-height: 20%
@@ -266,6 +282,10 @@ header {
 .function-01 {
   width: 52%;
   text-align: left;
+}
+
+.function-01 span {
+  font-size: 12px;
 }
 
 .function-img1-1 {
@@ -287,6 +307,11 @@ header {
   width: 40%;
 }
 
+.function-02 span {
+  background-color: black;
+  color:  rgb(255, 207, 0);
+}
+
 .function-img3-1 {
   width: 22%;
   height: auto;
@@ -301,8 +326,18 @@ header {
   width: 52%;
 }
 
+.function-03 span {
+  background-color: black;
+  color:  rgb(255, 207, 0);
+}
+
 .function-04 {
   width: 36%;
+}
+
+.function-04 span {
+  background-color: black;
+  color:  rgb(255, 207, 0);
 }
 
 .function-img4-1 {
@@ -317,6 +352,11 @@ header {
 
 .function-05-1 {
   width: 36%;
+}
+
+.function-05-1 span {
+  background-color: black;
+  color:  rgb(255, 207, 0);
 }
 
 .function-05-2 {
@@ -336,6 +376,7 @@ header {
   text-align: center;
   margin: 0 auto;
   width: 98%;
+  max-width: 1600px;
 
 }
 
@@ -343,12 +384,99 @@ header {
   border: solid;
 }
 
+.contact-container h2 {
+  margin-top: 60px;
+}
+
 .phone-number {
   width: 50%;
   float: left;
+  max-width: 560px;
+  margin-top: 92px;
+}
+
+.phone-number img {
+  float: left;
+}
+
+.phone-number p {
+  width: 85%;
+  float: right;
+  font-size: 50px;
+  font-weight: 900;
 }
 
 .mail-adress {
   width: 50%;
   float: right;
+  max-width: 560px;
+  margin-top: 92px;
+}
+
+.mail-adress img {
+  float: left;
+}
+
+.mail-adress p {
+  width: 85%;
+  float: right;
+  font-size: 32px;
+  font-weight: 900;
+}
+
+.person-in-charge {
+  max-width: 180px;
+  margin: 40px auto 60px auto;
+}
+
+.person-in-charge img {
+  float: left;
+  font-weight: 900;
+}
+
+.person-in-charge p {
+  float: right;
+  font-weight: 900;
+  line-height: 78px;
+}
+
+/*footer*/
+
+footer {
+  background-color: black;
+  height: 130px;
+}
+
+.footer-container {
+  color:  rgb(255, 207, 0);
+  width: 98%;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.footer-left {
+  float: left;
+}
+
+.footer-left a {
+  color:  rgb(255, 207, 0);
+}
+
+.footer-left li {
+  float: left;
+  list-style-type: none;
+  font-size: 14px;
+  line-height: 116px;
+  padding: 0 16px 0 16px;
+}
+
+.footer-right {
+  float: right;
+  height: 130px;
+}
+
+.footer-right p {
+  display: inline;
+  font-size: 14px;
+  line-height: 116px;
 }
